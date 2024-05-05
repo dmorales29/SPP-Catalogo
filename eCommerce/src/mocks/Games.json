@@ -1,0 +1,94 @@
+{
+  "games": [
+    {
+      "Id_Juego": "GAME001",
+      "Nombre_Juego": "Call of Duty: Modern Warfare",
+      "IdCategoria": "Acción",
+      "descripcion": "Un juego de disparos en primera persona que se desarrolla en un entorno de guerra moderna.",
+      "desarrollador": "Activision",
+      "precio": 59.99,
+      "imagen": "/src/assets/juegos_populares/01.jpg"
+    },
+    {
+      "Id_Juego": "GAME002",
+      "Nombre_Juego": "The Legend of Zelda: Breath of the Wild",
+      "IdCategoria": "Aventura",
+      "descripcion": "Un juego de acción y aventura en el que exploras un vasto mundo abierto y enfrentas desafíos épicos.",
+      "desarrollador": "Nintendo",
+      "precio": 49.99,
+      "imagen": "/src/assets/juegos_populares/02.jpg"
+    },
+    {
+      "Id_Juego": "GAME003",
+      "Nombre_Juego": "Red Dead Redemption 2",
+      "IdCategoria": "Rol (RPG)",
+      "descripcion": "Un juego de acción y aventura en un mundo abierto ambientado en el Salvaje Oeste.",
+      "desarrollador": "Rockstar Games",
+      "precio": 39.99,
+      "imagen": "/src/assets/juegos_populares/03.jpg"
+    },
+    {
+      "Id_Juego": "GAME004",
+      "Nombre_Juego": "FIFA 22",
+      "IdCategoria": "Estrategia",
+      "descripcion": "Un juego de simulación de fútbol que te permite jugar partidos con equipos reales y competir en ligas y torneos.",
+      "desarrollador": "Electronic Arts",
+      "precio": 49.99,
+      "imagen": "/src/assets/juegos_populares/04.jpg"
+    },
+    {
+      "Id_Juego": "GAME005",
+      "Nombre_Juego": "Assassin's Creed Valhalla",
+      "IdCategoria": "Deportes",
+      "descripcion": "Un juego de acción y aventura que te transporta al mundo vikingo y te permite explorar y luchar en una épica saga.",
+      "desarrollador": "Ubisoft",
+      "precio": 59.99,
+      "imagen": "/src/assets/juegos_populares/05.jpg"
+    },
+    {
+      "Id_Juego": "GAME006",
+      "Nombre_Juego": "Cyberpunk 2077",
+      "IdCategoria": "Carreras",
+      "descripcion": "Un juego de rol y acción en un futuro distópico donde exploras una ciudad llena de peligros y oportunidades.",
+      "desarrollador": "CD Projekt",
+      "precio": 49.99,
+      "imagen": "/src/assets/juegos_populares/06.jpg"
+    },
+    {
+      "Id_Juego": "GAME007",
+      "Nombre_Juego": "Minecraft",
+      "IdCategoria": "Lucha",
+      "descripcion": "Un juego de construcción y aventura en un mundo abierto donde puedes explorar, crear y sobrevivir.",
+      "desarrollador": "Mojang Studios",
+      "precio": 29.99,
+      "imagen": "/src/assets/juegos_populares/07.jpg"
+    },
+    {
+      "Id_Juego": "GAME008",
+      "Nombre_Juego": "Fortnite",
+      "IdCategoria": "Plataforma",
+      "descripcion": "Un juego de batalla real que te permite construir, luchar y sobrevivir en un mundo competitivo en línea.",
+      "desarrollador": "Epic Games",
+      "precio": 0.0,
+      "imagen": "/src/assets/juegos_populares/08.jpg"
+    },
+    {
+      "Id_Juego": "GAME009",
+      "Nombre_Juego": "League of Legends",
+      "IdCategoria": "Simulación",
+      "descripcion": "Un juego de estrategia y competición en línea donde controlas un campeón y luchas en equipo para destruir el nexo enemigo.",
+      "desarrollador": "Riot Games",
+      "precio": 0.0,
+      "imagen": "/src/assets/juegos_populares/09.jpg"
+    },
+    {
+      "Id_Juego": "GAME010",
+      "Nombre_Juego": "Among Us",
+      "IdCategoria": "Puzzles",
+      "descripcion": "Un juego de misterio y engaño en el que los jugadores deben descubrir al impostor entre ellos mientras completan tareas.",
+      "desarrollador": "InnerSloth",
+      "precio": 0.0,
+      "imagen": "/src/assets/juegos_populares/10.jpg"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "categorias": [
+    {
+      "IdCategoria": "CAT001",
+      "Categoria": "Acción"
+    },
+    {
+      "IdCategoria": "CAT002",
+      "Categoria": "Aventura"
+    },
+    {
+      "IdCategoria": "CAT003",
+      "Categoria": "Rol (RPG)"
+    },
+    {
+      "IdCategoria": "CAT004",
+      "Categoria": "Estrategia"
+    },
+    {
+      "IdCategoria": "CAT005",
+      "Categoria": "Deportes"
+    },
+    {
+      "IdCategoria": "CAT006",
+      "Categoria": "Carreras"
+    },
+    {
+      "IdCategoria": "CAT007",
+      "Categoria": "Lucha"
+    },
+    {
+      "IdCategoria": "CAT008",
+      "Categoria": "Plataforma"
+    },
+    {
+      "IdCategoria": "CAT009",
+      "Categoria": "Simulación"
+    },
+    {
+      "IdCategoria": "CAT010",
+      "Categoria": "Puzzles"
+    }
+  ]
+}
