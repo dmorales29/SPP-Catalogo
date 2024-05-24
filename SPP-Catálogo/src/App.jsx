@@ -1,20 +1,24 @@
-import { useState } from "react";
 import "./App.css";
-import { Header } from "./components/Header";
-import { Bar } from "./components/Bar";
-import { Games } from "./components/Games";
-import { games } from "./mocks/Games.json";
-import { useFilters } from "./hooks/useFilters";
+import { Home } from "./screens/Home";
+import { NavBar } from "../src/components/NavBar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AgregarProducto from "./screens/AgregarProducto";
+import EditarBorrarProducto from "./screens/EditarBorrarProducto";
 
 function App() {
-  const { filterProducts } = useFilters();
-  const filteredProducts = filterProducts(games);
-
   return (
     <>
-      <Header />
-      <Bar />
-      <Games games={filteredProducts} />
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/agregar-producto" element={<AgregarProducto />} />
+          <Route
+            path="/editar-borrar-producto"
+            element={<EditarBorrarProducto />}
+          />
+        </Routes>
+      </Router>
     </>
   );
 }

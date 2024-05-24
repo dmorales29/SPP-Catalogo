@@ -1,0 +1,53 @@
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 1280px;
+  align-items: end;
+  margin: 0 auto;
+}
+
+form div {
+  width: 100%;
+}
+
+form div label,
+form div input,
+form div textarea,
+form div select {
+  display: flex;
+  width: -webkit-fill-available;
+  height: 34px;
+}
+
+form div select {
+  height: 40px;
+}
+
+form div label {
+  margin: 16px 0 0 0 !important;
+}
+
+textarea {
+  resize: none;
+  height: 48px !important;
+}
+
+.adjuntar-imagen {
+  border: dashed 1px white;
+  border-radius: 5px;
+  background-color: #3a3a3b;
+}
+
+.adjuntar-imagen input {
+  padding: 16px;
+}
+
+.adjuntar-imagen label {
+  display: none;
+  text-align: center;
+}
+
+button {
+  margin: 16px 0 16px 16px;
+  padding: 8px 32px !important;
+}
